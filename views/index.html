@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link  rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/client.js"></script>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+          <span>Manage Node.js projects and npm packages using package.json</span><br>
+          <span class="sub_title">Part <span class="label label-info"><b>4</b></span> of Free Code Camp Backend Challenges</span><br><br>
+      </div>
+      <div class="middler">
+          <span class="mid_title"><h4><b>Image Search Abstraction Layer</b></h4></span>
+        <span class="sub_mid_title"><b>AUser Stories:</b></span><br>
+              <ol>
+                <li>I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+                </li>
+                <li> I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+                </li>
+                <li> I can get a list of the most recently submitted search strings.
+                </li>
+              </ol>
+        <span class="sub_mid_title"><b>Example usage:</b></span><br>
+            <pre><code>https://fcc-image-srch.glitch.me/api/search/lolcats?num=10</code></pre>
+            <pre><code>https://fcc-image-srch.glitch.me/searchList/</code></pre>
+        <span class="sub_mid_title" id="link"><b>Example output:</b></span><br>
+          <pre><code id="exl">{
+"url": "http://i0.kym-cdn.com/photos/images/facebook/000/748/290/ee7",<br>
+"snippet": "LOLcats | Know Your Meme",<br>
+"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR2tmDEaEp6UmuD7aC80sVrMXMrbth7FPWTbGpmXIxPrUUZx_gNSYUpbHC",<br>
+"context": "http://knowyourmeme.com/memes/lolcats"
+},</code></pre><br><br>
+          <a href="https://github.com/kmzAnton/IMAGE-SEARCH" target="_blank">Visit GitHub Repository</a>
+        </div> 
+      </div>
+  </body>
+</html>
